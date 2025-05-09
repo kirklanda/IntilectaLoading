@@ -5,11 +5,11 @@
 
 
 # The script accepts the following parameters:
-# -FilePath: The path to the CSV file to be uploaded.
+# -DirectoryPath: The path to the CSV files to be uploaded.
 # -StartDate: The start date for the file selection (default is yesterday).
 # -EndDate: The end date for the file selection (default is today).
 param (
-    [string]$DirectoryPath = "C:\Users\andre\OneDrive - Castnet Consulting Limited\Clients\TeWhatuOra\Intilecta\",
+    [string]$DirectoryPath = "C:\temp\Intilecta\",
     [datetime]$StartDate = (Get-Date).AddDays(-1).Date,
     [datetime]$EndDate = $StartDate.AddDays(1).AddSeconds(-1) # End of the day yesterday
 )

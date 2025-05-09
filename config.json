@@ -2,5 +2,5 @@
   "EndpointUrl" : "https://uat.breastscreening.health.nz/api/itg/intilecta/validate-bulk",
   "ApiKeyName" : "PingaAPIKey",
   "ApiSecretName" : "PingaAPISecret",
-  "LogFilePath" : ".\\log.out"
+  "LogFilePath" : "c:\\temp\\Intilecta\\log.out"
 }
